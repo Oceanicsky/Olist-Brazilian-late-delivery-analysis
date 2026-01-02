@@ -14,4 +14,3 @@ Analyze late delivery patterns in Brazilian e-commerce.
 - Delivery vs shipping delay comparison
 
 ## Result
-Shipping stage contributes most to late deliveries.
