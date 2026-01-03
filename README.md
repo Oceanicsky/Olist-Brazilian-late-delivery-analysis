@@ -14,7 +14,7 @@ The goal is to provide actionable insights that can help:
 - Logistics teams focus on the most delay-prone stages of fulfillment
 
 ## How to use the files
-
+prerequisite: Local SQL server & a Database (named ecommerce_olist or modify the database name in db_config.py using your database name)
 
 ## Tools
 - Power BI
