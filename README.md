@@ -21,6 +21,9 @@ Prerequisite:
 - Local SQL server & a Database (named ecommerce_olist or modify the database name in db_config.py using your database name)
 - On premise Gateway for Power BI (might updated to cloud database and omit the step)
 
+Intial running: 
+
+
 ## Tools
 - Power BI
 - SQL Server
@@ -32,7 +35,7 @@ Prerequisite:
 - Delivery vs shipping delay comparison
 
 ## Possible improvements
-- cloud database
+- Cloud database
 - Future rules on cleaning when data increases
 
 ## Result
