@@ -13,6 +13,8 @@ The goal is to provide actionable insights that can help:
 - Marketplace managers identify high-risk sellers
 - Logistics teams focus on the most delay-prone stages of fulfillment
 
+## How to use the files
+
 
 ## Tools
 - Power BI
