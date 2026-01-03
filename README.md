@@ -1,7 +1,7 @@
 # Late Delivery Analysis for Olist Brazilian dataset
 
 ## Introduction
-The project use Brazilian e-commerce olist dataset to analyze late deliveries pattern in Power BI, and meanwhile realize end-to-end analysis from pulling data into SQL server to displaying the visuals to extract insights. Meanwhile, the analysis is dynamic and timely by enabling auto scheduled refreshed and auto cleaning the data, showing the most up-to-date visuals every day (though the dataset is static, the deriving and cleaning are dynamic).   
+The project use Brazilian e-commerce olist dataset to analyze late deliveries pattern in Power BI, and meanwhile realize end-to-end analysis from pulling data into SQL server to displaying the visuals to extract insights. Meanwhile, the analysis is dynamic and timely by enabling auto scheduled refreshed and auto cleaning the data, showing the most up-to-date visuals every day (though the dataset is static, deriving and cleaning the data are dynamic).   
 
 ## Business Problem
 Late deliveries are a critical operational issue in e-commerce, directly impacting customer satisfaction, seller reputation, and repeat purchase behavior.
