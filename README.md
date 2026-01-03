@@ -19,7 +19,7 @@ The goal is to provide actionable insights that can help:
 ## How to use the files
 Prerequisite: 
 - Local SQL server & a Database (named ecommerce_olist or modify the database name in db_config.py using your database name)
-- On premise Gateway
+- On premise Gateway for Power BI (not practical as real enterprise use cloud database and omit the step)
 
 ## Tools
 - Power BI
