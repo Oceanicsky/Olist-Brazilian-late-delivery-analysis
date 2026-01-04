@@ -44,7 +44,7 @@ Scheduled refreshed:
 - Click OK to save the task
 
 ## Key Analysis
-- Late rate by sellers, customers, products, delivered date
+- Late rate and Average late days by review scores, sellers, customers, products, delivered date (customers receiving products) and other timestamp including purchase date, approved date, delivery date (sellers delivering products), Estimated Delivered date (Latest date for products delivered to customers), Shipping Limit (Latest date for sellers to deliver products), Review creation date and Review answer date.
 - Drillthrough seller diagnostics
 - Delivery vs shipping delay comparison
 
