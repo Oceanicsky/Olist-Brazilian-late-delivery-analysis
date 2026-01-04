@@ -44,7 +44,7 @@ Scheduled refreshed:
 - Click OK to save the task
 
 ## Key Analysis
-- Late rate by state and seller
+- Late rate by sellers, customers, products, delivered date
 - Drillthrough seller diagnostics
 - Delivery vs shipping delay comparison
 
