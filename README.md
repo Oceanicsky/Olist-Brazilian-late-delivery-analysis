@@ -3,6 +3,11 @@
 ## Introduction
 The project use Brazilian e-commerce olist dataset to analyze late deliveries pattern in Power BI, and meanwhile realize end-to-end analysis from pulling data into SQL server to displaying the visuals to extract insights. Meanwhile, the analysis is dynamic and timely by enabling auto scheduled refreshed and auto cleaning the data, showing the most up-to-date visuals every day (though the dataset is static, deriving and cleaning the data are dynamic).   
 
+## Tools
+- Power BI
+- SQL Server
+- Python
+
 ## Business Problem
 Late deliveries are a critical operational issue in e-commerce, directly impacting customer satisfaction, seller reputation, and repeat purchase behavior.
 
@@ -38,11 +43,6 @@ Scheduled refreshed:
 <img width="1164" height="846" alt="a8f031e4-2ae5-46b1-b844-49df9f27d2d8" src="https://github.com/user-attachments/assets/510e7430-e1cf-40df-ac35-672293736284" />
 - Click OK to save the task
 
-## Tools
-- Power BI
-- SQL Server
-- Python
-
 ## Key Analysis
 - Late rate by state and seller
 - Drillthrough seller diagnostics
@@ -52,4 +52,4 @@ Scheduled refreshed:
 - Cloud database
 - Future rules on cleaning when data increases
 
-## Result
+
