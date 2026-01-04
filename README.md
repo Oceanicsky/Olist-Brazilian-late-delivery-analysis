@@ -26,6 +26,17 @@ Intial running:
 - If the program takes a long time to find anaconda, add anaconda path mannually in the bat file in the following part.
 <img width="385" height="120" alt="3661e1cd-90d9-49c0-940f-8fb5d6c25008" src="https://github.com/user-attachments/assets/e334a453-d46b-4be8-ad7b-6651e4465678" />
 
+Scheduled refreshed:
+- Search and Open Windows Task Scheduler
+- Create task and Name the task
+- Click Triggers and Create a new trigger
+- Configure the preferred frequency for scheduled refreshed (e.g. Daily), and Click OK
+<img width="1335" height="858" alt="62085201-794a-400a-9128-6931beda1c42" src="https://github.com/user-attachments/assets/9bc53519-b739-4b55-9f07-126e709a56c3" />
+- Click Actions and Create a new action
+- Select "Start a program" action and add path of the scheduled refresh.bat file
+- Click OK
+<img width="1164" height="846" alt="a8f031e4-2ae5-46b1-b844-49df9f27d2d8" src="https://github.com/user-attachments/assets/510e7430-e1cf-40df-ac35-672293736284" />
+- Click OK to save the task
 
 ## Tools
 - Power BI
