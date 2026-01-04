@@ -22,6 +22,9 @@ Prerequisite:
 - On premise Gateway for Power BI (might updated to cloud database and omit the step)
 
 Intial running: 
+- Open scheduled refresh.bat
+- If the program takes a long time to find anaconda, add anaconda path mannually in the bat file in the following part.
+<img width="385" height="120" alt="3661e1cd-90d9-49c0-940f-8fb5d6c25008" src="https://github.com/user-attachments/assets/e334a453-d46b-4be8-ad7b-6651e4465678" />
 
 
 ## Tools
