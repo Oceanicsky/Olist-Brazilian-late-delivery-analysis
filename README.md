@@ -16,7 +16,7 @@ The goal is to provide actionable insights that can help:
 - Marketplace managers identify high-risk sellers
 - Logistics teams focus on the most delay-prone stages of fulfillment
 
-## How to use the files
+## How to configure auto refresh and auto cleaning data
 Prerequisite: 
 - Local SQL server & a Database (named ecommerce_olist or modify the database name in db_config.py using your database name)
 - On premise Gateway for Power BI (might updated to cloud database and omit the step)
