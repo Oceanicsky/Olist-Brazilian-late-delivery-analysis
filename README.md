@@ -19,7 +19,7 @@ The goal is to provide actionable insights that can help:
 ## How to configure database and scheduled refresh
 Prerequisite: 
 - Local SQL server & a Database (named ecommerce_olist or modify the database name in db_config.py using your database name)
-- On premise Gateway for Power BI (might updated to cloud database and omit the step)
+- On premise Gateway for Power BI (might updated to cloud database and omit the step). See for installation and configuring: https://learn.microsoft.com/en-us/data-integration/gateway/service-gateway-install
 
 Intial running: 
 - Open scheduled refresh.bat
