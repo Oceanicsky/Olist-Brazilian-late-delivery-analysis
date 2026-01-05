@@ -51,5 +51,5 @@ Scheduled refreshed:
 ## Possible improvements
 - Cloud database
 - Future rules on cleaning when data increases
-
+- Alert in Power BI service after publishing 
 
