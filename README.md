@@ -31,6 +31,12 @@ Intial running:
 - If the program takes a long time to find anaconda, add anaconda path mannually in the bat file in the following part.
 <img width="385" height="120" alt="3661e1cd-90d9-49c0-940f-8fb5d6c25008" src="https://github.com/user-attachments/assets/e334a453-d46b-4be8-ad7b-6651e4465678" />
 
+Configure Kaggle API:
+- Open Environment variables
+- Click New and enter KAGGLE_API_TOKEN = KGAT_317e0fc5d2ccb5fa4bf9c903d961d7d
+<img width="1160" height="559" alt="e6eb1d35-2b9d-4389-a0c2-af4350bf664a" src="https://github.com/user-attachments/assets/921fcf9a-fcda-4d2b-bf0b-5d84c511f978" />
+
+
 Scheduled refreshed:
 - Search and Open Windows Task Scheduler
 - Create task and Name the task
