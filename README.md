@@ -26,10 +26,12 @@ Prerequisite:
 - Local SQL server & a Database (named ecommerce_olist or modify the database name in db_config.py using your database name)
 - On premise Gateway for Power BI (might updated to cloud database and omit the step). See for installation and configuring: https://learn.microsoft.com/en-us/data-integration/gateway/service-gateway-install
 
+
 Intial running: 
 - Open scheduled refresh.bat
 - If the program takes a long time to find anaconda, add anaconda path mannually in the bat file in the following part.
 <img width="385" height="120" alt="3661e1cd-90d9-49c0-940f-8fb5d6c25008" src="https://github.com/user-attachments/assets/e334a453-d46b-4be8-ad7b-6651e4465678" />
+
 
 Configure Kaggle API:
 - Open Environment variables
