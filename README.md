@@ -53,7 +53,8 @@ Scheduled refreshed:
 ## Key Analysis
 - Late rate and Average late days by review scores, sellers, customers, products, delivered date (customers receiving products) and other timestamp including purchase date, approved date, delivery date (sellers delivering products), Estimated Delivered date (Latest date for products delivered to customers), Shipping Limit (Latest date for sellers to deliver products), Review creation date and Review answer date.
 - Drillthrough pages for factors, including divisions of time spending at each stages, comparisons with groups, orders details and summary. 
-- comparisons with different timestamp for seasonal patterns 
+- Comparisons with different timestamp for seasonal patterns
+- Ruled-based riskscore for orders to advance alert before delivered
 
 ## Possible improvements
 - Cloud database
