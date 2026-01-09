@@ -60,4 +60,4 @@ Scheduled refreshed:
 - Cloud database
 - Future rules on cleaning when data increases
 - Alert in Power BI service after publishing 
-
+- Use Weighted Avg Score in Risk Score
