@@ -1,4 +1,6 @@
 # Late Delivery Analysis for Olist Brazilian dataset
+<img width="1160" height="649" alt="Risk Score" src="https://github.com/user-attachments/assets/369efee1-f4d9-43e3-ba66-2f761dad168d" />
+<img width="1160" height="650" alt="Quarter Details" src="https://github.com/user-attachments/assets/a94e7ef9-1629-46ed-8af2-168ff3367c0e" />
 
 ## Project Overview
 
