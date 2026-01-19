@@ -20,23 +20,20 @@ In e-commerce operations, late deliveries can negatively impact customer satisfa
 
 The answers help support data-driven decisions for sellers, marketplace operators, and logistics planners.
 
-## Tools
-- Power BI
-- SQL Server
-- Python
+## Dataset Description
 
-## Business Problem
-Late deliveries are a critical operational issue in e-commerce, directly impacting customer satisfaction, seller reputation, and repeat purchase behavior.
+The dataset is sourced from the public Olist Brazilian E-commerce dataset, which contains records of ~100k orders from 2016–2018, including order timestamps, delivery dates, seller and customer location information.
 
-Using the Olist Brazilian e-commerce dataset, this project aims to identify:
-- Where late deliveries occur most frequently (by state and seller)
-- Which stage of the order lifecycle contributes most to delays (shipping vs final delivery)
-- Whether late deliveries are driven by systemic regional issues or by seller-level performance differences
+Main Data Tables: 
 
-The goal is to provide actionable insights that can help:
-- Operations teams prioritize process improvements
-- Marketplace managers identify high-risk sellers
-- Logistics teams focus on the most delay-prone stages of fulfillment
+- Orders: order IDs, purchase and delivery dates
+
+- Sellers / Customers: geographic locations
+
+- Delivery Performance: actual vs estimated delivery durations
+
+(The repository includes data cleaning and schema explanation.)
+
 
 ## How to configure database and scheduled refresh
 Prerequisite: 
