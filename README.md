@@ -66,7 +66,7 @@ Scheduled refreshed:
 
 ## Analytical Approach
 
-### 1. Data Preparation
+### Data Preparation
 
 - Merge relevant Olist tables
 - Convert timestamp fields to datetime format
@@ -75,17 +75,13 @@ Scheduled refreshed:
   - `estimated_delivery_days`
   - `late_delivery_flag` (actual > estimated)
 
----
-
-### 2. Descriptive Statistics
+### Descriptive Statistics
 
 - Overall late delivery rate
 - Distribution of delivery durations
 - Summary statistics (mean, median, percentiles)
 
----
-
-### 3. Grouped Analysis
+### Grouped Analysis
 
 Delivery performance is compared across multiple dimensions:
 
@@ -96,17 +92,17 @@ Delivery performance is compared across multiple dimensions:
 
 Group comparisons highlight operational heterogeneity and potential outliers.
 
----
 
-### 4. Risk Stratification
+
+### Risk Stratification
 
 - Delivery time percentiles are used to classify orders into risk groups
 - Sellers and regions are ranked by late delivery risk
 - This enables prioritization of operational interventions
 
----
 
-### 5. Visualization
+
+### Visualization
 
 The notebook includes visualizations such as:
 
@@ -115,9 +111,9 @@ The notebook includes visualizations such as:
 - Bar charts of late delivery rate by seller and state
 - Time-series trends of late delivery rates
 
----
 
-## 📊 Key Insights
+
+##  Key Insights
 
 - A non-trivial proportion of orders are delivered later than estimated
 - Longer delivery durations are associated with higher late delivery probability
