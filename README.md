@@ -1,7 +1,24 @@
 # Late Delivery Analysis for Olist Brazilian dataset
 
-## Introduction
-The project use Brazilian e-commerce olist dataset to analyze late deliveries pattern in Power BI, and meanwhile realize end-to-end analysis from fetching data to deliver valuable insights. Meanwhile, the analysis is dynamic and timely by enabling auto scheduled refreshed and auto cleaning the data, showing the most up-to-date visuals every day (though the dataset is static, deriving and cleaning the data are dynamic).   
+## Project Overview
+
+This repository presents a statistical analysis of delivery performance using the public Olist Brazilian E-commerce dataset. The goal of the project is to understand what factors are associated with late deliveries and to quantify delivery performance across different operational groups such as sellers, states, and time periods.
+
+This project demonstrates exploratory data analysis (EDA), statistical metric design, group comparisons, risk scoring, and data storytelling — skills central to a data analyst or statistician role.
+
+## Business Problem & Motivation
+
+In e-commerce operations, late deliveries can negatively impact customer satisfaction, seller reputation, and revenue. For logistics and operational decision-making, answering the following questions is critical:
+
+- What proportion of orders are delivered late?
+
+- Which sellers, regions, or time periods exhibit higher rates of late delivery?
+
+- How to quantify and compare delivery performance statistically?
+
+- What operational insights can guide performance improvement?
+
+The answers help support data-driven decisions for sellers, marketplace operators, and logistics planners.
 
 ## Tools
 - Power BI
