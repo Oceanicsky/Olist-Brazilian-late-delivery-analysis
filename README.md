@@ -64,7 +64,7 @@ Scheduled refreshed:
 <img width="1164" height="846" alt="a8f031e4-2ae5-46b1-b844-49df9f27d2d8" src="https://github.com/user-attachments/assets/510e7430-e1cf-40df-ac35-672293736284" />
 - Click OK to save the task
 
-## 🧠 Analytical Approach
+## Analytical Approach
 
 ### 1. Data Preparation
 
