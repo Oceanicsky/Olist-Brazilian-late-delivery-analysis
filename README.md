@@ -64,11 +64,65 @@ Scheduled refreshed:
 <img width="1164" height="846" alt="a8f031e4-2ae5-46b1-b844-49df9f27d2d8" src="https://github.com/user-attachments/assets/510e7430-e1cf-40df-ac35-672293736284" />
 - Click OK to save the task
 
-## Key Analysis
-- Late rate and Average late days by review scores, sellers, customers, products, delivered date (customers receiving products) and other timestamp including purchase date, approved date, delivery date (sellers delivering products), Estimated Delivered date (Latest date for products delivered to customers), Shipping Limit (Latest date for sellers to deliver products), Review creation date and Review answer date.
-- Drillthrough pages for factors, including divisions of time spending at each stages, comparisons with groups, orders details and summary. 
-- Comparisons with different timestamp for seasonal patterns
-- Ruled-based riskscore for orders to advance alert before delivered
+## 🧠 Analytical Approach
+
+### 1. Data Preparation
+
+- Merge relevant Olist tables
+- Convert timestamp fields to datetime format
+- Engineer key features:
+  - `actual_delivery_days`
+  - `estimated_delivery_days`
+  - `late_delivery_flag` (actual > estimated)
+
+---
+
+### 2. Descriptive Statistics
+
+- Overall late delivery rate
+- Distribution of delivery durations
+- Summary statistics (mean, median, percentiles)
+
+---
+
+### 3. Grouped Analysis
+
+Delivery performance is compared across multiple dimensions:
+
+- **Seller-level late delivery rate**
+- **State-level late delivery rate**
+- **Time-based trends** (monthly / quarterly)
+- **Delivery duration brackets**
+
+Group comparisons highlight operational heterogeneity and potential outliers.
+
+---
+
+### 4. Risk Stratification
+
+- Delivery time percentiles are used to classify orders into risk groups
+- Sellers and regions are ranked by late delivery risk
+- This enables prioritization of operational interventions
+
+---
+
+### 5. Visualization
+
+The notebook includes visualizations such as:
+
+- Histogram of delivery times
+- Late vs on-time delivery comparisons
+- Bar charts of late delivery rate by seller and state
+- Time-series trends of late delivery rates
+
+---
+
+## 📊 Key Insights
+
+- A non-trivial proportion of orders are delivered later than estimated
+- Longer delivery durations are associated with higher late delivery probability
+- Significant variation exists across sellers and geographic regions
+- Time-based patterns suggest potential seasonality and operational bottlenecks
 
 ## Possible improvements
 - Cloud database
